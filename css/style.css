@@ -1,0 +1,56 @@
+*{
+    margin:0px auto;
+    padding:0;
+    box-sizing: border-box;}
+
+.form {
+    height:619px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 13.82px;
+    justify-items: center;
+    align-content: center;
+}
+
+.form__label{
+    display: block;
+    font-size: 11px;
+    text-align: left;
+    font-family: "Arial",Regular;
+    color: #016BC1B3;
+}
+
+.form__input{
+    width: 283px;
+    height: 29px;
+    margin: 8.88px 0 13.46px 10.89px;
+    padding: 15px 5px;
+    font-size: 18px;
+    font-weight: 400;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 3px solid #016BC1;
+    border-radius: 2px;
+    opacity: 1;
+}
+
+.form__button {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-between;
+    width: 294px;
+    padding: 0 0 0 10.89px;
+}
+
+.form__loginbtn, .form__registerbtn{
+    margin: 62.41px 0 0 0;
+    width: 132px;
+    height: 34px;
+    font-family: "Dosis",SemiBold;
+    font-size: 11px;
+    background: #016BC1 0% 0% no-repeat padding-box;
+    border-radius: 1px;
+    opacity: 1;
+    color: #fff;
+    border: none;
+}
+
